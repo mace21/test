@@ -1,6 +1,7 @@
 # test
 test test
 
+<pre><code>
 <!-- GA Test -->
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -12,7 +13,7 @@ test test
 </script>
 <!-- GA Test -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118660069-3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -25,3 +26,4 @@ gtag('config', 'UA-118660069-3', {
 // Sends an event that passes 'age' as a parameter.
 gtag('event', 'custom-dimension', {'001-sitename': 'MO WEB','002-chtype': 'TEMP-LIVE'});
 </script>
+</code></pre>
